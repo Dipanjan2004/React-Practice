@@ -1,1 +1,3 @@
-This is the project Where I will start learning about react that i can improve my skills
+This is the ReadMe file for my learning of html,css and javascript. 
+Then I will be learning about React and Node.js. 
+After that, I will explore databases and backend development. 
