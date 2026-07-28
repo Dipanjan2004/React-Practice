@@ -4,6 +4,12 @@ import {name1} from "./app.js"; //This is export for all : Can be done multiple 
 //one more example
 import {dip,raj} from "./test.js"
 
+//Now I will import a function
+
+import {hero} from "./test.js"
+
+console.log(hero())
+
 console.log(dip)
 console.log(raj)
 
