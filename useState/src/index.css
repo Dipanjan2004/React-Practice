@@ -1,0 +1,16 @@
+*{
+  background-color: black;
+  color: white;
+}
+button{
+  color: white;
+  background-color: rgb(24, 49, 214);
+  padding: 20px 40px;
+  font-size: 40px;
+  border: none;
+  border-radius: 20px;
+}
+.btn{
+  display: flex;
+  gap: 10px;
+}
