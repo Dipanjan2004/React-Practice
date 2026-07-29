@@ -1,7 +1,7 @@
 import React from "react";
 import Men from './components/Men.jsx'
 import Women from './components/Women.jsx'
-
+import Button from './components/Button.jsx'
 const App = () => {
   const user1={
     name:"Dip",
@@ -13,7 +13,7 @@ const App = () => {
   }
   return <div className="min-h-screen bg-black text-white">
     
-    {user2.gender=='male'?<Men/>:<Women/>}
+    <Button/>
 
   </div>;
 };
