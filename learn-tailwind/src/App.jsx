@@ -1,11 +1,19 @@
 import React from 'react'
-import Card from './Card.jsx'
+import Button from './components/Button.jsx'
+import Card from './components/Card.jsx'
 
 const App = () => {
+  const user = ["dip","raj","dev","devansh","kartik"]
+  console.log(user)
   return (
     <div className='min-h-screen bg-black text-white '>
-      <h1 className='text-5xl text-white'>Hello World</h1>
-      <Card/>
+
+
+      {user.map(function(elem) {
+        return <Card text={elem}/>
+      })}
+
+
     </div>
   )
 }
